@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Contact = ({ phone, email, sites }) => {
-  const websites = sites.map(site => (
-    <li>{site}</li>
+  const websites = sites.map((site, i) => (
+    <li key={i}>{site}</li>
   ));
 
   return(
@@ -16,10 +16,10 @@ const Contact = ({ phone, email, sites }) => {
   );
 };
 
-Name.PropTypes = {
+Contact.propTypes = {
   phone: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
-  sites: PropTypes.arrayOf(PropTypes.string).isRequired
+  sites: PropTypes.array.isRequired
 }
 
 export default Contact;

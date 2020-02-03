@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Skills = skills => {
-  const skillsDisplay = skills.map(skill => (
-    <li>skill</li>
+const Skills = ({ skills }) => {  
+  const skillsDisplay = skills.map((skill, i) => (
+    <li key={i}>skill</li>
   ));
 
   return(
@@ -14,7 +14,7 @@ const Skills = skills => {
   );
 };
 
-Name.PropTypes = {
+Skills.propTypes = {
   skills: PropTypes.array.isRequired
 }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Title = title => {
+const Title = ({ title }) => {
   return(
     <h3>{title}</h3>
   );
 };
 
-Name.PropTypes = {
+Title.propTypes = {
   title: PropTypes.string.isRequired
 }
 

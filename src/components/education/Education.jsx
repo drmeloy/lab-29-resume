@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Education = education => {
-  const educationDisplay = education.map(item => (
-    <li>{item}</li>
+const Education = ({ education }) => {
+  const educationDisplay = education.map((item, i) => (
+    <li key={i}>{item}</li>
   ));
 
   return(
@@ -14,7 +14,7 @@ const Education = education => {
   );
 };
 
-Name.PropTypes = {
+Education.propTypes = {
   education: PropTypes.array.isRequired
 }
 

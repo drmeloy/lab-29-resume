@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Summary = summary => {
+const Summary = ({ summary }) => {
   return(
     <>
       <h2>Summary</h2>
@@ -10,7 +10,7 @@ const Summary = summary => {
   );
 };
 
-Name.PropTypes = {
+Summary.propTypes = {
   summary: PropTypes.string.isRequired
 }
 

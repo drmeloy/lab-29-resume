@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Projects = projects => {
-  const projectsDisplay = projects.map(item => (
-    <li>{item}</li>
+const Projects = ({ projects }) => {
+  const projectsDisplay = projects.map((item, i) => (
+    <li key={i}>{item}</li>
   ));
 
   return(
@@ -14,7 +14,7 @@ const Projects = projects => {
   );
 };
 
-Name.PropTypes = {
+Projects.propTypes = {
   projects: PropTypes.array.isRequired
 }
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Experience = experience => {
-  const experiences = experience.map(item => (
-    <li>{item}</li>
+const Experience = ({ experience }) => {
+  const experiences = experience.map((item, i) => (
+    <li key={i}>{item}</li>
   ));
 
   return(
@@ -14,7 +14,7 @@ const Experience = experience => {
   );
 };
 
-Name.PropTypes = {
+Experience.propTypes = {
   experience: PropTypes.array.isRequired
 }
 
