@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component renders a Projects component 1`] = `
+<Fragment>
+  <h3>
+    Projects
+  </h3>
+  <ul />
+</Fragment>
+`;

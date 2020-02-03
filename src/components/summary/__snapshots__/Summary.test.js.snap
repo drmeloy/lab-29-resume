@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary component renders a Summary component 1`] = `
+<Fragment>
+  <h2>
+    Summary
+  </h2>
+  <p />
+</Fragment>
+`;
