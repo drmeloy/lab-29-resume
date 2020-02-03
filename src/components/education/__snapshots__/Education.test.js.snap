@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education component renders a Education component 1`] = `
+<Fragment>
+  <h3>
+    Education
+  </h3>
+  <ul />
+</Fragment>
+`;

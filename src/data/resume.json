@@ -1,0 +1,12 @@
+{
+  "name": "Dan Meloy",
+  "title": "Software Engineer",
+  "summary": "Reliable, technical, creative. Full-stack minded and process oriented. Excellent communicator. Yes to collaboration and commitment. Lets make something great together.",
+  "phone": "503-704-2278",
+  "email": "drmeloy@gmail.com",
+  "sites": ["www.drmeloy@gmail.com", "www.twitter.com/DevvyDan", "www.github.com/drmeloy", "www.linkdin.com/in/dan-meloy"],
+  "skills": ["Javascript", "CSS", "HTML"],
+  "experience": ["Saved world"],
+  "projects": ["Rug maker", "Tile painter"],
+  "education": ["The best school", "The worst playground"]
+}
