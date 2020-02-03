@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Skills = ({ skills }) => {  
   const skillsDisplay = skills.map((skill, i) => (
-    <li key={i}>skill</li>
+    <li key={i}>{skill}</li>
   ));
 
   return(
